@@ -30,4 +30,4 @@ class TestApp:
         '''displays failure text of '/<model> route in browser.'''
 
         response = app.test_client().get('/realCar')
-        assert(response.data.decode() == 'No models called realCar exists in our catalog')
+        assert(response.data.decode() == 'No models called realCar exists in our catalog.')

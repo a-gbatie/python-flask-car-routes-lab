@@ -6,7 +6,7 @@ existing_models = ['Beedle', 'Crossroads', 'M2', 'Panique']
 
 @app.route('/')
 def index():
-  return "Welcome to Flatiron Cars!"
+  return "Welcome to Flatiron Cars"
 
 @app.route('/<model>')
 def show_model(model):
